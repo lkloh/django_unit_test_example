@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 
 import datetime
 
-from django.test import TestCase
+from django.test import Client, TestCase
 from django.utils import timezone
 
 from polls.models import Choice, Question
